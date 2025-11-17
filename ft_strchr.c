@@ -16,7 +16,9 @@ char	*ft_strchr(const char *s, int c)
 {
 	unsigned char	*p;
 	unsigned char	f;
-
+	
+	if (!s)
+		return (NULL);
 	p = (unsigned char *)s;
 	f = (unsigned char)c;
 	if (f == '\0')

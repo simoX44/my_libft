@@ -18,8 +18,6 @@ char	*ft_strrchr(const char *s, int c)
 	unsigned char	f;
 	char			*stck;
 
-	if (s == NULL)
-		return (NULL);
 	p = (unsigned char *)s;
 	f = (unsigned char)c;
 	stck = NULL;
